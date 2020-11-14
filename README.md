@@ -6,7 +6,7 @@ Sitio Web Tau sistemas
 
 Para comenzar a usar la plantilla del sitio, elijir una de las siguientes opciones para comenzar:
 
-- isntalar usando npm: `npm i startbootstrap-grayscale`
+- Instalar usando npm: `npm i startbootstrap-grayscale`
 - Clonar repositorio (Plantilla Original): `git clone https://github.com/StartBootstrap/startbootstrap-grayscale.git`
 
 #### npm Scripts
