@@ -2,7 +2,7 @@
 
 Sitio Web Tau sistemas
 
-## Download and Installation
+## Descarga e Instalación
 
 Para comenzar a usar la plantilla del sitio, elijir una de las siguientes opciones para comenzar:
 
@@ -12,7 +12,7 @@ Para comenzar a usar la plantilla del sitio, elijir una de las siguientes opcion
 #### npm Scripts
 
 - `npm run build` Construye el proyecto -> HTML, JS, y CSS en `dist`
-- `npm start` or `npm run start` ejecuta el proyecto, lanza una vista previa en su navegador predeterminado `src`
+- `npm start` ejecuta el proyecto, lanza una vista previa en su navegador predeterminado `src`
 
 ---------
 
