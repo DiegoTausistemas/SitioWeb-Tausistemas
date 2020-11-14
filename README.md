@@ -2,6 +2,8 @@
 
 Sitio Web Tau sistemas
 
+![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/DiegoTausistemas/SitioWeb-Tausistemas/master/src/assets/Tausistemas_web.png)
+
 ## Descarga e Instalación
 
 Para comenzar a usar la plantilla del sitio, elijir una de las siguientes opciones para comenzar:
