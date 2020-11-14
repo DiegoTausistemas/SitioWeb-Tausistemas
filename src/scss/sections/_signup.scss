@@ -1,12 +1,12 @@
 .signup-section {
     padding: 10rem 0;
     background: linear-gradient(
-            to bottom,
-            #{fade-out($black, 0.9)} 0%,
-            #{fade-out($black, 0.5)} 75%,
-            $black 100%
-        ),
-        url("../assets/img/terminal.png");
+        to top,
+        #{fade-out($light, 0.5)} 50%,
+        #{fade-out($light, 0.5)} 100%,
+        $light 100%
+    ),
+        url("../assets/img/terminal_screenshot.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
