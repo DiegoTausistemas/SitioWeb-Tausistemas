@@ -1,12 +1,16 @@
 .about-section {
-    padding-top: 10rem;
-    background: linear-gradient(
-        to top,
-        #{fade-out($light, 1.0)} 0%,
-        #{fade-out($light, 0.0)} 0%,
-        $light 100%
-    );
-    p {
-        margin-bottom: 5rem;
-    }
+  padding-top: 10rem;
+  color: $white;
+  .h2 {
+    color: white;
+  }
+  background: linear-gradient(
+    to top,
+    #{fade-out($teal, 0.8)} 0%,
+    #{fade-out($teal, 0)} 0%,
+    $teal 80%
+  );
+  p {
+    margin-bottom: 5rem;
+  }
 }
