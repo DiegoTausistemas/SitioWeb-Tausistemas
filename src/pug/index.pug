@@ -37,9 +37,11 @@ html(lang='en')
                         li.nav-item
                             a.nav-link.js-scroll-trigger.text-secondary(href='#about') Empresa
                         li.nav-item
+                            a.nav-link.js-scroll-trigger.text-secondary(href='#services') Servicios
+                        li.nav-item
                             a.nav-link.js-scroll-trigger.text-secondary(href='#projects') Proyectos
                         li.nav-item
-                            a.nav-link.js-scroll-trigger.text-secondary(href='#signup') Contacto
+                            a.nav-link.js-scroll-trigger.text-secondary(href='#contact') Contacto
 
         // Masthead
         header.masthead
@@ -49,13 +51,32 @@ html(lang='en')
                     img.img-fluid(src='assets/img/Logo_Tau_Positivo.png', alt='')
                     a.btn.btn-primary.js-scroll-trigger(href='#about') Más sobre nosotros
         // About
-        section#about.about-section.text-center.bg-light
+        section#about.about-section.text-center.bg-light.p-5
+            .container
+                .row.pb-0
+                    .col-lg-8.mx-auto
+                        h2.mb-4.text-somos Somos Tau Sistemas
+                        p.text-secondary-50.mb-4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas repudiandae provident eum vel! Deserunt rerum quo ipsa quasi vitae eum provident harum corporis, impedit ea dolor iste dicta voluptates.
+                img.img-fluid.w-25(src='assets/img/logo_blanco.png', alt='')
+
+        // Services
+        section#services.services-section.bg-secondary
             .container
                 .row
-                    .col-lg-8.mx-auto
-                        h2.text-secondary.mb-4 Somos Tau Sistemas
-                        p.text-secondary-50 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptas repudiandae provident eum vel! Deserunt rerum quo ipsa quasi vitae eum provident harum corporis, impedit ea dolor iste dicta voluptates.
-                img.img-fluid.w-25(src='assets/img/logo_blanco.png', alt='')
+                    .col-md-4.mb-3.mb-md-0
+                        .card.py-4.h-100
+                            .card-body.text-center
+                                h4.text-uppercase.m-0 Desarrollo de Sistemas
+                                hr.my-4
+                                .small.text-black-50 Desarrollo Web y a medida
+                                p.small.text-black-50 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit quam sed fuga quod, dolorem itaque error, dolor eos ad, atque minima tempore nisi perferendis blanditiis sit labore alias dignissimos unde?
+                    .col-md-4.mb-3.mb-md-0
+                        .card.py-4.h-100
+                            .card-body.text-center
+                                h4.text-uppercase.m-0 Consultoría
+                                hr.my-4
+                                .small.text-black-50 Lorem ipsum dolor sit amet 
+                                p.small.text-black-50 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi molestias quisquam sequi voluptatibus debitis, sed recusandae neque fugit. Delectus quas, perspiciatis iure quod rerum neque repellat quis! Excepturi, corporis ullam!
 
         // Projects
         section#projects.projects-section.bg-light
@@ -66,7 +87,7 @@ html(lang='en')
                         img.img-fluid.mb-3.mb-lg-0.border(src='assets/img/Phi-sistema.png', alt='')
                     .col-xl-4.col-lg-5
                         .featured-text.text-center.text-lg-left
-                            h4 Sistema Phi
+                            h4 Sistema Phi - Administración de Librerías
                             p.text-black-50.mb-0
                                 | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit minima excepturi nostrum beatae, reiciendis unde quaerat laudantium facere similique maiores nemo, esse porro magni consequuntur culpa ipsam voluptas fugit quae.
                 // Project One Row
@@ -77,36 +98,14 @@ html(lang='en')
                         .bg-info.text-center.h-100.project
                             .d-flex.h-100
                                 .project-text.w-100.my-auto.text-center.text-lg-left
-                                    h4.text-white Que Leo Concepción
+                                    h4.text-white Clientes
                                     p.mb-0.text-white-50
                                         | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis possimus dolorum facilis magni distinctio quibusdam quasi voluptates, at quis saepe tenetur harum blanditiis inventore, sunt modi dignissimos. Dolor, quas illum?.
                                     hr.d-none.d-lg-block.mb-0.ml-0
-                // Project Two Row
-                .row.justify-content-center.no-gutters
-                    .col-lg-6
-                        img.img-fluid(src='https://via.placeholder.com/700x500', alt='')
-                    .col-lg-6.order-lg-first
-                        .bg-secondary.text-center.h-100.project
-                            .d-flex.h-100
-                                .project-text.w-100.my-auto.text-center.text-lg-right
-                                    h4.text-white Libreria Random
-                                    p.mb-0.text-white-50
-                                        | Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laudantium in maiores, laborum veritatis id reprehenderit aliquam quae expedita tempora quod explicabo voluptatem sunt quas consectetur exercitationem quia pariatur. Repudiandae?
-                                    hr.d-none.d-lg-block.mb-0.mr-0
 
-        // Signup
-        section#signup.signup-section.border-top
-            .container
-                .row
-                    .col-md-10.col-lg-8.mx-auto.text-center
-                        i.far.fa-paper-plane.fa-2x.mb-2.text-secondary
-                        h2.text-secondary.mb-5 Suscríbete
-                        form.form-inline.d-flex
-                            input#inputEmail.form-control.flex-fill.mr-0.mr-sm-2.mb-3.mb-sm-0(type='email', placeholder='Ingresa tu Email')
-                            button.btn.btn-primary.mx-auto(type='submit') Enviar
 
         // Contact
-        section.contact-section.bg-dark
+        section#contact.contact-section.bg-dark
             .container
                 .row
                     .col-md-4.mb-3.mb-md-0
@@ -116,6 +115,8 @@ html(lang='en')
                                 h4.text-uppercase.m-0 Dirección
                                 hr.my-4
                                 .small.text-black-50 Paicaví 128, Concepción
+                                p.small.text-black-50 Región del Bío Bío
+                                p.small.text-black-50 Chile
                     .col-md-4.mb-3.mb-md-0
                         .card.py-4.h-100
                             .card-body.text-center
@@ -123,7 +124,7 @@ html(lang='en')
                                 h4.text-uppercase.m-0 Email
                                 hr.my-4
                                 .small.text-black-50
-                                    a(href='#!') sebastian@tausistemas.cl
+                                    a(href='#!') contacto@tausistemas.cl
                     .col-md-4.mb-3.mb-md-0
                         .card.py-4.h-100
                             .card-body.text-center
@@ -142,7 +143,7 @@ html(lang='en')
         // Footer
         footer.footer.bg-dark.small.text-center.text-white-50
             .container
-                | Copyright © Tausistemas 2020
+                | Copyright © Tau Sistemas 2020
 
         // Bootstrap core JS
         script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')

@@ -1,0 +1,19 @@
+.services-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  .card {
+    border: 0;
+    border-bottom: 0.25rem solid $primary;
+    h4 {
+      font-size: 0.8rem;
+      font-family: $font-family-special;
+      text-transform: uppercase;
+      letter-spacing: 0.15rem;
+    }
+    hr {
+      border-color: $primary;
+      border-width: 0.25rem;
+      width: 3rem;
+    }
+  }
+}
