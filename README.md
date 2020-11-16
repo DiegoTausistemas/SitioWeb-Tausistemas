@@ -2,7 +2,7 @@
 
 Sitio Web Tau sistemas
 
-![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/DiegoTausistemas/SitioWeb-Tausistemas/master/src/assets/Tausistemas_web.png)
+![Imagen de sitio Tausistemas](https://raw.githubusercontent.com/DiegoTausistemas/SitioWeb-Tausistemas/master/src/assets/Tausistemas_screenshot.png)
 
 ## Descarga e Instalación
 
